@@ -1,3 +1,3 @@
-from aws_requests.getItems import getAllItems
+from aws_requests.dynamo.getItems import getAllItems
 
 getAllItems()

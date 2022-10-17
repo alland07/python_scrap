@@ -1,18 +1,14 @@
 import re
 import requests
 from bs4 import BeautifulSoup
-from nltk.stem.snowball import EnglishStemmer, FrenchStemmer
-import nltk
+from nltk.stem.snowball import EnglishStemmer
 # nltk.download('punkt')
 # nltk.download('averaged_perceptron_tagger')
-from transformers import pipeline
 
 # My files
 from count import count_words, count_the
 from dataframe import create_dataframe
-from traduction import translate
 from verbe import be_verb
-from aws_requests.insert_item import insertDB
 
 
 def handler():
